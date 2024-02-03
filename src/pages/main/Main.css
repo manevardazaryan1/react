@@ -1,0 +1,20 @@
+.form {
+    padding: 25px;
+}
+
+.form-section{
+    width: 50% !important;
+    padding: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    min-height: 90vh;
+}
+
+@media screen and(max-width: "1024px") {
+    .form-section {
+        width: 90%;
+    }
+}
